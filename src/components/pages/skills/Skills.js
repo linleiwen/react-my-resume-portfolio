@@ -10,16 +10,16 @@ export default function Skills() {
           </h6>
           <div className="row mt-top">
             <div className="col s6">
-              <p>HTML</p>
+              <p>PYTHON</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
-                  style={{ width: '89%' }}
+                  style={{ width: '100%' }}
                 ></div>
               </div>
             </div>
             <div className="col s6">
-              <p>CSS</p>
+              <p>JAVA</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
@@ -39,7 +39,7 @@ export default function Skills() {
               </div>
             </div>
             <div className="col s6">
-              <p>PHP</p>
+              <p>HTML</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
@@ -50,7 +50,7 @@ export default function Skills() {
           </div>
           <div className="row">
             <div className="col s6">
-              <p>MySQL</p>
+              <p>MS SQL</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"
@@ -59,7 +59,7 @@ export default function Skills() {
               </div>
             </div>
             <div className="col s6">
-              <p>JQUERY</p>
+              <p>ReactJS</p>
               <div className="progress grey lighten-1">
                 <div
                   className="determinate blue"

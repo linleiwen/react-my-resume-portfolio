@@ -12,47 +12,22 @@ export default function Educations() {
 					<table class='striped'>
 						<thead>
 							<tr>
-								<th>Certificate</th>
+								<th>School</th>
+								<th>Degree</th>
 								<th>Date</th>
 								<th></th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td>Web Development</td>
-								<td>Jan 2020</td>
-								<td>
-									<Link to='/details' class='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
+								<td>GEORIA INSTITUTE OF TECHNOLOGY</td>
+								<td>Online Master of Science in Computer Science</td>
+								<td>Present</td>
 							</tr>
 							<tr>
-								<td>Graphic Design</td>
+								<td>THE GEORGE WASHINGTON UNIVERSITY</td>
+								<td>Master of Science in Business Analytics</td>
 								<td>May 2020</td>
-								<td>
-									<Link to='/details' class='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
-							</tr>
-							<tr>
-								<td>Tech Gadgets</td>
-								<td>June 2020</td>
-								<td>
-									<Link to='/details' class='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
-							</tr>
-							<tr>
-								<td>Other</td>
-								<td>Dec 2020</td>
-								<td>
-									<Link to='/details' class='btn blue lighten-2'>
-										View
-									</Link>
-								</td>
 							</tr>
 						</tbody>
 					</table>
