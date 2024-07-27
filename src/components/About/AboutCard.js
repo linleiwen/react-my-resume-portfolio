@@ -13,7 +13,7 @@ function AboutCard() {
             <br />
             I am currently employed as a senior software developer at Freddie Mac.
             <br />
-            Results-driven Software Engineer with 5+ years' experience developing scalable cloud-based applications and data-driven solutions. 
+            I am a Results-driven Software Engineer with 5+ years' experience developing scalable cloud-based applications and data-driven solutions. 
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
