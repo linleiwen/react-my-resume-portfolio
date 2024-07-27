@@ -1,14 +1,14 @@
 html {
   --section-background-color: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.582),
-    rgba(12, 8, 24, 0.904)
+    #111010, /* Dark Grey */
+    #000033 /* Navy Blue */
   );
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    #111010, /* Dark Grey */
+    #000033 /* Navy Blue */
   );
 
   --imp-text-color: #87cefa;
@@ -39,7 +39,7 @@ button:focus {
 }
 
 #preloader-none {
-  opacity: 0;
+  opacity: 0.5;
 }
 
 #no-scroll {
@@ -57,7 +57,7 @@ button:focus {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #000033;
 }
 
 /* Handle */
@@ -401,7 +401,7 @@ button:focus {
 .footer-tech-icons {
   display: inline-block !important;
   padding-right: 10px;
-  padding-left: 10px;
+  padding-left: px;
 }
 
 
