@@ -157,6 +157,8 @@ button:focus {
 .logo {
   height: 1.4em !important;
   width: 2.5em !important;
+  transform: scale(3); /* 放大5倍 */
+  transform-origin: center; /* 以中心为基准进行缩放 */
 }
 
 .navbar-nav .nav-link {
