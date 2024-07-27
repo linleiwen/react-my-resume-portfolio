@@ -13,21 +13,20 @@ function AboutCard() {
             <br />
             I am currently employed as a senior software developer at Freddie Mac.
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            Results-driven Software Engineer with 5+ years' experience developing scalable cloud-based applications and data-driven solutions. 
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Snowboarding
             </li>
             <li className="about-activity">
               <ImPointRight /> Travelling
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Food lover
             </li>
           </ul>
         </blockquote>
