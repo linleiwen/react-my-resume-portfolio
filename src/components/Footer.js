@@ -22,15 +22,15 @@ function Footer() {
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Max Lin</h3>
           <ul className="footer-icons">
-          <li className="social-icons">
-            <FaAws className="footer-icons"/>
-          </li>
-          <li className="social-icons">
-            <DiPython className="footer-icons"/>
-          </li>
-          <li className="social-icons">
-            <DiReact className="footer-icons"/>
-          </li>
+            <li className="footer-tech-icons">
+              <DiPython/>
+            </li>
+            <li className="footer-tech-icons">
+              <DiReact/>
+            </li>
+              <li className="footer-tech-icons">
+              <FaAws/>
+            </li>
           </ul>
         </Col>
         <Col md="4" className="footer-body">

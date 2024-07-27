@@ -354,7 +354,7 @@ button:focus {
 
 .home-social-icons {
   position: relative !important;
-  display: inline-block !important;
+  display: inline-block !important; /* This line ensures elements are on the same line */
   width: 40px !important;
   height: 40px !important;
   text-align: center !important;
@@ -364,6 +364,8 @@ button:focus {
   border-radius: 50% !important;
   transition: 0.5s !important;
 }
+
+
 
 .home-social-icons::before {
   content: "";
@@ -395,6 +397,13 @@ button:focus {
   padding-right: 15px;
   padding-left: 15px;
 }
+
+.footer-tech-icons {
+  display: inline-block !important;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
 
 .icon-colour {
   color: #87cefa !important;
@@ -568,19 +577,6 @@ button:focus {
   
 }
 
-.footer-tech-icons {
-  font-size: 1em !important;
-  margin: 1px !important;
-  padding: 1px !important;
-  opacity: 0.93 !important;
-  border: 1.7px solid rgba(135, 206, 250, 0.637) !important;
-  vertical-align: middle !important;
-  text-align: center !important;
-  border-radius: 1px !important;
-  display: table !important;
-  overflow: hidden !important;
-  
-}
 
 @media (max-width: 767px) {
   .tech-icons {
