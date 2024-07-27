@@ -104,7 +104,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://github.com/linleiwen/Portfolio"
+                href="https://github.com/linleiwen"
                 target="_blank"
                 className="fork-btn-inner"
               >

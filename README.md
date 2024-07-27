@@ -20,14 +20,14 @@
 
 <h3 align="center">
     🔹
-    <a href="https://github.com/linleiwen/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
+    <a href="https://github.com/linleiwen/issues">Report Bug</a> &nbsp; &nbsp;
     🔹
-    <a href="https://github.com/linleiwen/Portfolio/issues">Request Feature</a>
+    <a href="https://github.com/linleiwen/issues">Request Feature</a>
 </h3>
 
 ## TL;DR
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/linleiwen/Portfolio). Thanks!
+You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [Soumyajit4419](https://github.com/linleiwen). Thanks!
 
 ## Built With
 
