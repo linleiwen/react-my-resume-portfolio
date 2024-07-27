@@ -565,6 +565,7 @@ button:focus {
   box-shadow: 4px 5px 4px 3px rgba(135, 206, 250, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
+  
 }
 
 .footer-tech-icons {
@@ -578,6 +579,7 @@ button:focus {
   border-radius: 1px !important;
   display: table !important;
   overflow: hidden !important;
+  
 }
 
 @media (max-width: 767px) {

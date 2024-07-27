@@ -7,6 +7,7 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaAws } from "react-icons/fa";
+import { DiPython, DiReact} from "react-icons/di";
 
 function Footer() {
   let date = new Date();
@@ -20,9 +21,17 @@ function Footer() {
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year} Max Lin</h3>
-          <Col xs={4} md={2} className="footer-tech-icons">
-            <FaAws style={{ width: "2em", height: "1em", verticalAlign: "middle" }} />.
-          </Col>
+          <ul className="footer-icons">
+          <li className="social-icons">
+            <FaAws className="footer-icons"/>
+          </li>
+          <li className="social-icons">
+            <DiPython className="footer-icons"/>
+          </li>
+          <li className="social-icons">
+            <DiReact className="footer-icons"/>
+          </li>
+          </ul>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
