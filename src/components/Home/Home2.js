@@ -16,28 +16,28 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="navyBlue"> INTRODUCE </span> MYSELF
+              LET ME <span className="navy-blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have learned quite a bit, I think… 🤷‍♂️
               <br />
               <br />I am fluent in 
               <i>
-                <b className="navyBlue"> Python, JavaScript, AWS, Spark, Airflow, and Databricks. </b>
+                <b className="navy-blue"> Python, JavaScript, AWS, Spark, Airflow, and Databricks. </b>
               </i>
               <br />
               <br />
               My fields of interest include building new &nbsp;
               <i>
-                <b className="navyBlue">Web Technologies and Products</b> as well as working on{" "}
-                <b className="navyBlue">big data and cloud computing.</b>
+                <b className="navy-blue">Web Technologies and Products</b> as well as working on{" "}
+                <b className="navy-blue">big data and cloud computing.</b>
               </i>
               <br />
               <br />
               Whenever possible, I also apply my passion for developing solutions
-              with <b className="navyBlue">Python</b> and
+              with <b className="navy-blue">Python</b> and
               <i>
-                <b className="navyBlue">
+                <b className="navy-blue">
                   {" "}modern JavaScript libraries and frameworks.
                 </b>
               </i>
@@ -53,7 +53,7 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
-              Feel free to <span className="navyBlue">connect </span>with me
+              Feel free to <span className="navy-blue">connect </span>with me
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
