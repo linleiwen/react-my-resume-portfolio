@@ -6,6 +6,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { FaAws } from "react-icons/fa";
 
 function Footer() {
   let date = new Date();
@@ -14,10 +15,14 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by MAX LIN</h3>
+          <h3>Designed and Developed by MAX LIN. <br></br>
+          App is built with React and hosted on AWS.</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} Max Lin</h3>
+          <Col xs={4} md={2} className="footer-tech-icons">
+            <FaAws style={{ width: "2em", height: "1em", verticalAlign: "middle" }} />.
+          </Col>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">

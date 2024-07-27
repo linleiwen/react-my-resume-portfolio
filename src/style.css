@@ -567,6 +567,19 @@ button:focus {
   transition: all 0.4s ease 0s !important;
 }
 
+.footer-tech-icons {
+  font-size: 1em !important;
+  margin: 1px !important;
+  padding: 1px !important;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(135, 206, 250, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 1px !important;
+  display: table !important;
+  overflow: hidden !important;
+}
+
 @media (max-width: 767px) {
   .tech-icons {
     margin: 10px !important;
