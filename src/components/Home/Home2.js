@@ -19,8 +19,6 @@ function Home2() {
               LET ME <span className="navy-blue"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have learned quite a bit, I think… 🤷‍♂️
-              <br />
               <br />I am fluent in 
               <i>
                 <b className="navy-blue"> Python, JavaScript, AWS, Spark, Airflow, and Databricks. </b>
