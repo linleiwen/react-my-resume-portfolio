@@ -1,4 +1,4 @@
-import DbsTitanic from "./DbsTitanic.png";
+import dbsTitanic from "./dbsTitanic.png";
 import pyOdata from "./pyOdata.png";
 import dsPySpark from "./dsPySpark.png";
 import personalPortfolio from "./personalPortfolio.png";
@@ -16,7 +16,7 @@ const myProjects = [
       description: "Airflow configurations and DAGs for Kubernetes-based Spark pipelines, scaled with Spark master and secured with Keycloak.",
       ghLink: "https://github.com/linleiwen/airflow_dag_demo_project"
     },
-    { imgPath: DbsTitanic, 
+    { imgPath: dbsTitanic, 
       title: "Databricks Titanic dataset analytcis",
       description: "A tutorial on data science basics using PySpark, MLflow, and the Titanic dataset on Databricks.",
       ghLink: "https://github.com/linleiwen/titanic_dataset_databricks"
