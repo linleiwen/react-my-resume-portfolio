@@ -10,10 +10,26 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
+  const [finalUrl, setFinalUrl] = useState('http://maxlin-resume.s3-website-us-east-1.amazonaws.com/'); 
 
   useEffect(() => {
     setWidth(window.innerWidth);
-  }, []);
+
+    const checkUrl = async () => {
+      try {
+        const corsProxy = "https://cors-anywhere.herokuapp.com/";
+        const targetUrl = `${corsProxy}${finalUrl}`;
+        const response = await fetch(targetUrl, { method: 'HEAD' });
+        if (!response.ok) {
+          setFinalUrl(pdf);
+        }
+      } catch (error) {
+        setFinalUrl(pdf);
+      }
+    };
+
+    checkUrl();
+  }, [finalUrl]);
 
   return (
     <div>
@@ -22,7 +38,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={finalUrl}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
@@ -40,7 +56,7 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
-            href={pdf}
+            href={finalUrl}
             target="_blank"
             style={{ maxWidth: "250px" }}
           >
