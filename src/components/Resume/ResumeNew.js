@@ -17,9 +17,7 @@ function ResumeNew() {
 
     const checkUrl = async () => {
       try {
-        const corsProxy = "https://cors-anywhere.herokuapp.com/";
-        const targetUrl = `${corsProxy}${finalUrl}`;
-        const response = await fetch(targetUrl, { method: 'HEAD' });
+        const response = await fetch(finalUrl, { method: 'HEAD' });
         if (!response.ok) {
           setFinalUrl(pdf);
         }
