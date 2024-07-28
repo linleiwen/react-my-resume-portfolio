@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import myProjects from "../../Assets/Projects/MyProject";
+import myProjects from "../../Assets/Projects/Constant";
 
 
 function Projects() {
@@ -18,18 +18,28 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          <Col md={4} className="project-card">
+        {
+          myProjects.map((myProject, index) => (
+            <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={myProjects[0].imgPath}
-              title={myProjects[0].title}
-              description={myProjects[0].description}
-              ghLink={myProjects[0].ghLink}
+              key={index}
+              imgPath={myProject.imgPath}
+              title={myProject.title}
+              description={myProject.description}
+              ghLink={myProject.ghLink}
             />
-          </Col>
+            </Col>
+            ))
+            
+        }
         </Row>
       </Container>
     </Container>
   );
 }
+
+
+
+
 
 export default Projects;
