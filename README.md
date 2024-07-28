@@ -1,6 +1,5 @@
 <h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://usmaxlin.com/" target="_blank">usmaxlin.com</a>
+  Portfolio Website<br/>
 </h2>
 
 <br/>
