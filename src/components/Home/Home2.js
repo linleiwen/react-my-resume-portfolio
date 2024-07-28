@@ -38,9 +38,12 @@ function Home2() {
               with <b className="navy-blue">Python</b> and
               <i>
                 <b className="navy-blue">
-                  {" "}modern JavaScript libraries and frameworks.
+                  {" "}modern JavaScript libraries and frameworks.{" "}
                 </b>
               </i>
+              Additionally, I excel in <b className="navy-blue">Data Engineering</b> and <b className="navy-blue">Data Pipeline</b> development,
+               leveraging these skills to drive insights and innovation.
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
